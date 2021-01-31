@@ -1,6 +1,6 @@
 {
 	"name": "queryshift",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Library for making MongoDB-style updates to Javascript objects and verifying queries that come from clients",
 	"main": "dist/mutate.js",
 	"scripts": {

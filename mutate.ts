@@ -240,7 +240,7 @@ export type Booleanify<T> = {
 	[P in keyof T]?: boolean | (T[P] extends {} ? Booleanify<T[P]> : boolean);
 };
 
-export type Permissions<T> = Booleanify<T>;
+export type Permissions<T> = Booleanify<Updater<T>>;
 
 /**
  * Given a set of permissions, modeled directly after an update schema,
