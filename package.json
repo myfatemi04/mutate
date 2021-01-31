@@ -1,8 +1,8 @@
 {
 	"name": "queryshift",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Library for making MongoDB-style updates to Javascript objects and verifying queries that come from clients",
-	"main": "dist/index.js",
+	"main": "dist/mutate.js",
 	"scripts": {
 		"prepublish": "tsc",
 		"test": "echo \"Error: no test specified\" && exit 1"
