@@ -1,5 +1,5 @@
 {
-	"name": "mutator",
+	"name": "mutatejs",
 	"version": "1.0.0",
 	"description": "Library for making MongoDB-style updates to Javascript objects and verifying queries that come from clients",
 	"main": "dist/index.js",
